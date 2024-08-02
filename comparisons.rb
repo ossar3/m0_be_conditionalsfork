@@ -53,21 +53,23 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+#YOU DO: this will put nil in the output in terminal because 4 is less than 9 but i think the output is supposed to be done before
+#typing puts and not in the puts statement
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: this is defining books as 3 and saying is 4 less than books (3) which is false but its asking question in the puts so 
+#will maybe be nil again
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+# YOU DO: Explain. friends equal 6 siblings equal 2 then it is doing puts 
 
 attendees = 9
 meals = 8
 puts attendees != meals
-# YOU DO: Explain.
+# YOU DO: Explain.this would be true because 8 does not equal 9
 
 
 #-------------------
@@ -87,19 +89,21 @@ loves_to_play = true
 loves_dog_park = false
 loves_treats = true
 age = 1
+puppy = (age <= 2)
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
+p loves_to_play && loves_treats
 
 
 # Determine if the dog loves to play and loves the dog park
-
+p loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+p loves to play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
 # Assume that a dog is a puppy if it is less than 2 years old.
-
+p loves_to_play && puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
