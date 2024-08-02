@@ -106,4 +106,4 @@ p loves to play || loves_dog_park
 # Assume that a dog is a puppy if it is less than 2 years old.
 p loves_to_play && puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+#
